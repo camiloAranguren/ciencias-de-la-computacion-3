@@ -21,10 +21,6 @@ class Cola:
         # funcion para eliminar un elemento de la cola
         if (self.moto != []):
         #  print "elimino correctamente de la cola principal"
-          try:
-            return self.moto.pop(0)
-          except:
-            raise ValueError("La cola está vacía")
         else:
           return "Cola vacia"
     def atender(self,cupos):
