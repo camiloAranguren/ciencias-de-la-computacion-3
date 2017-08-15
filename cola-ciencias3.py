@@ -24,7 +24,7 @@ class Cola:
         else:
           return "Cola vacia"
     def atender(self,cupos):
-        # funcion que segun el numero de cupos atendera a esa antidad de motos
+        # funcion que segun el numero de cupos atendera a esa cantidad de motos
         i = 0
         print ("El cupo para motos es de:  " + cupos)        
         while ( i <= int(cupos)):
