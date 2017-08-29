@@ -10,11 +10,11 @@ class Pila:
     def apilar(self,x):
       # funcion para agregar un elemento a la pila
         self.pila.append(x)
-      # print "se apilo correctmente"
+    
     def desapilar(self):
       # funcion para eliminar un elemento de la pila
        if (self.pila != []):
-      # print "se desapilo"
+  
         return self.pila.pop()
        else: 
         return "Lista vacia"
@@ -44,7 +44,7 @@ while(i < tam):
        der = pila.desapilar()
        izq = pila.desapilar()
        nodo = Nodo(lista[i],izq,der) 
-       pila.apilar(nodo)
+       pila.apilar(nodo)#Ingreso del sub arbol con los dos simbolos
     else:        
         pila.apilar(lista[i])
     i = i+1
